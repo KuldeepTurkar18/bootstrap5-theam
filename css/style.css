@@ -300,7 +300,7 @@ footer{
 
 	.story-head.float-lg-end {margin-bottom: 55px;text-align: center;}
 
-    .story-para { padding: 0;}
+    .story-para { padding: 0;margin-bottom: 30px;}
 
     .img-gog,.dog-product{display: none;}
 
@@ -309,6 +309,42 @@ footer{
     .collapse .nav-item .nav-link {text-align: center;}
     
     .navbar.sticky {background:transparent;}
+
+    .story-head h3 {
+	    font-size: 30px;
+	    line-height: 38px;
+    }
+
+    .story-head h1 {
+	    font-size: 58px;
+	    line-height: 36px;
+    }
+
+    .perfect-life h1 {
+	    font-size: 48px;
+	    line-height: 54px;
+    }
+
+    h1.maintitle {
+	    font-size: 28px;
+	    line-height: 36px;
+	    letter-spacing: 2px;
+   }
+
+   .btn-main {
+      font-size: 16px;
+    }
+    .engrident-section h3 {
+	    font-size: 48px;
+	    line-height: 58px;
+   }
+   .engrident-section h4 {
+    font-size: 26px;
+    letter-spacing: 3px;
+   }
+   .learn-more-section .beeds{
+   	margin-bottom: 30px;
+   }
 }
 
 @media(max-width: 560px){
