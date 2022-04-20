@@ -363,6 +363,17 @@ footer{
    .rightfood-section .perfect-info{
    	padding: 0 15px;
    }
+   footer:after {
+    content: "";
+    position: absolute;
+    background: #ffffff8f;
+    height: 100%;
+    width: 100%;
+    top: 0;
+  }
+  .footer-info{
+  	z-index: 1;
+  }
 }
 
 @media(max-width: 560px){
