@@ -1,0 +1,35 @@
+
+body,html{ overflow-x: hidden;}
+.header{
+  background-color: #000;
+  nav{
+    padding-bottom: 20px;
+  }
+}
+.top-arrow{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	z-index: 99;
+  i{
+    background:#2ea2d0;
+    color: #fff;
+    font-size: 42px;
+    padding: 5px;
+    border-radius: 0 50% 50%;
+  }
+}
+.navbar-nav{
+  .nav-item {
+    .nav-link{
+    	color: #fff;
+    	font-size: 18px;
+    	font-weight: 600;
+    	padding: 12px 14px;
+      i{
+        color: #fff;
+        font-size: 32px;
+      }
+    }
+  }
+}
